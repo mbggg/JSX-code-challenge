@@ -6,10 +6,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// ReactDOM.render(WHAT TO SHOW, WHERE TO SHOW IT);
+
 ReactDOM.render(
   <div>
-    <h1>Hello Goons!</h1>
-    <p>This is a paragraph.</p>
+    <h1>My Favourite Fruits</h1>
+    <ul>
+      <li>Cantaloupe</li>
+      <li>Clementines</li>
+      <li>Green grapes</li>
+    </ul>
   </div>,
   document.getElementById("root")
 );
